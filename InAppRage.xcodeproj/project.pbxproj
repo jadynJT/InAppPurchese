@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		048EED881D3E559F00BDF36B /* ssss.m in Sources */ = {isa = PBXBuildFile; fileRef = 048EED871D3E559F00BDF36B /* ssss.m */; };
 		EF37D4571CDC7A3800796DA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF37D4561CDC7A3800796DA7 /* main.m */; };
 		EF37D45A1CDC7A3800796DA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF37D4591CDC7A3800796DA7 /* AppDelegate.m */; };
 		EF37D45D1CDC7A3800796DA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF37D45C1CDC7A3800796DA7 /* ViewController.m */; };
@@ -42,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		048EED861D3E559F00BDF36B /* ssss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssss.h; sourceTree = "<group>"; };
+		048EED871D3E559F00BDF36B /* ssss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ssss.m; sourceTree = "<group>"; };
 		EF37D4521CDC7A3800796DA7 /* InAppRage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InAppRage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF37D4561CDC7A3800796DA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EF37D4581CDC7A3800796DA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -102,6 +105,8 @@
 		EF37D4491CDC7A3800796DA7 = {
 			isa = PBXGroup;
 			children = (
+				048EED861D3E559F00BDF36B /* ssss.h */,
+				048EED871D3E559F00BDF36B /* ssss.m */,
 				EF3B3C5F1CE2FB7C0056195F /* StoreKit.framework */,
 				EF37D4961CDC907A00796DA7 /* SystemConfiguration.framework */,
 				EF37D4541CDC7A3800796DA7 /* InAppRage */,
@@ -341,6 +346,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048EED881D3E559F00BDF36B /* ssss.m in Sources */,
 				EF37D48A1CDC7B5A00796DA7 /* IAPHelper.m in Sources */,
 				EF3B3C691CE331030056195F /* KTableViewCell.m in Sources */,
 				EF37D45D1CDC7A3800796DA7 /* ViewController.m in Sources */,
