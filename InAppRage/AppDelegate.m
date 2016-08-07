@@ -20,10 +20,16 @@
     NSLog(@"sourceTree");
 }
 
+-(void)source{
+    NSLog(@"source");
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
     [self sourceTree];
+    
+    [self source];
     
     //加上此句 paymentQueue:updatedTransactions 这个函数才能被调用
     [[SKPaymentQueue defaultQueue] addTransactionObserver:[InAppRageIAPHelper sharedHelper]];
