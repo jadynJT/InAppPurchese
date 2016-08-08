@@ -25,6 +25,7 @@
 		EF3B3C6A1CE331030056195F /* KTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF3B3C681CE331030056195F /* KTableViewCell.xib */; };
 		EF47DFDC1D580E3E00279C7F /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = EF47DFDB1D580E3E00279C7F /* Order.m */; };
 		EF47DFDF1D58170600279C7F /* Purchase.m in Sources */ = {isa = PBXBuildFile; fileRef = EF47DFDE1D58170600279C7F /* Purchase.m */; };
+		EF47DFEC1D58303E00279C7F /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = EF47DFEB1D58303E00279C7F /* Photo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,8 @@
 		EF47DFDB1D580E3E00279C7F /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
 		EF47DFDD1D58170600279C7F /* Purchase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Purchase.h; sourceTree = "<group>"; };
 		EF47DFDE1D58170600279C7F /* Purchase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Purchase.m; sourceTree = "<group>"; };
+		EF47DFEA1D58303E00279C7F /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		EF47DFEB1D58303E00279C7F /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +237,8 @@
 		EF47DFE81D582E7300279C7F /* Photos */ = {
 			isa = PBXGroup;
 			children = (
+				EF47DFEA1D58303E00279C7F /* Photo.h */,
+				EF47DFEB1D58303E00279C7F /* Photo.m */,
 			);
 			path = Photos;
 			sourceTree = "<group>";
@@ -388,6 +393,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF47DFEC1D58303E00279C7F /* Photo.m in Sources */,
 				048EED881D3E559F00BDF36B /* ssss.m in Sources */,
 				EF37D48A1CDC7B5A00796DA7 /* IAPHelper.m in Sources */,
 				EF3B3C691CE331030056195F /* KTableViewCell.m in Sources */,
