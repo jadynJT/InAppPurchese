@@ -10,4 +10,11 @@
 
 @implementation Album
 
+-(instancetype)init{
+    if (self = [super init]) {
+        NSLog(@"李四 album");
+    }
+      return self;
+}
+
 @end
