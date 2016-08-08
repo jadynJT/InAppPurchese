@@ -105,7 +105,7 @@
 		EF37D4491CDC7A3800796DA7 = {
 			isa = PBXGroup;
 			children = (
-				EF47DFD71D580AFD00279C7F /* Purchase */,
+				EF47DFD81D580C0D00279C7F /* Purchase */,
 				048EED861D3E559F00BDF36B /* ssss.h */,
 				048EED871D3E559F00BDF36B /* ssss.m */,
 				EF3B3C5F1CE2FB7C0056195F /* StoreKit.framework */,
@@ -204,11 +204,11 @@
 			name = TableView;
 			sourceTree = "<group>";
 		};
-		EF47DFD71D580AFD00279C7F /* Purchase */ = {
+		EF47DFD81D580C0D00279C7F /* Purchase */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Purchase;
+			path = Purchase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
