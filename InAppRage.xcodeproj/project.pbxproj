@@ -105,6 +105,7 @@
 		EF37D4491CDC7A3800796DA7 = {
 			isa = PBXGroup;
 			children = (
+				EF47DFD71D580AFD00279C7F /* Purchase */,
 				048EED861D3E559F00BDF36B /* ssss.h */,
 				048EED871D3E559F00BDF36B /* ssss.m */,
 				EF3B3C5F1CE2FB7C0056195F /* StoreKit.framework */,
@@ -201,6 +202,13 @@
 				EF3B3C681CE331030056195F /* KTableViewCell.xib */,
 			);
 			name = TableView;
+			sourceTree = "<group>";
+		};
+		EF47DFD71D580AFD00279C7F /* Purchase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Purchase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
