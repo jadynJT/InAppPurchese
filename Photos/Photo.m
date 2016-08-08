@@ -10,4 +10,11 @@
 
 @implementation Photo
 
+-(instancetype)init{
+    if (self = [super init]) {
+        NSLog(@"王五 photo");
+    }
+    return self;
+}
+
 @end
