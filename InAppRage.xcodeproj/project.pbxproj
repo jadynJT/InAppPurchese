@@ -24,6 +24,7 @@
 		EF3B3C691CE331030056195F /* KTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3B3C671CE331030056195F /* KTableViewCell.m */; };
 		EF3B3C6A1CE331030056195F /* KTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF3B3C681CE331030056195F /* KTableViewCell.xib */; };
 		EF47DFDC1D580E3E00279C7F /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = EF47DFDB1D580E3E00279C7F /* Order.m */; };
+		EF47DFDF1D58170600279C7F /* Purchase.m in Sources */ = {isa = PBXBuildFile; fileRef = EF47DFDE1D58170600279C7F /* Purchase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,8 @@
 		EF3B3C681CE331030056195F /* KTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KTableViewCell.xib; sourceTree = "<group>"; };
 		EF47DFDA1D580E3E00279C7F /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
 		EF47DFDB1D580E3E00279C7F /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
+		EF47DFDD1D58170600279C7F /* Purchase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Purchase.h; sourceTree = "<group>"; };
+		EF47DFDE1D58170600279C7F /* Purchase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Purchase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,6 +214,8 @@
 		EF47DFD81D580C0D00279C7F /* Purchase */ = {
 			isa = PBXGroup;
 			children = (
+				EF47DFDD1D58170600279C7F /* Purchase.h */,
+				EF47DFDE1D58170600279C7F /* Purchase.m */,
 			);
 			path = Purchase;
 			sourceTree = "<group>";
@@ -377,6 +382,7 @@
 				EF37D4911CDC8EA300796DA7 /* Reachability.m in Sources */,
 				EF37D4571CDC7A3800796DA7 /* main.m in Sources */,
 				EF37D4951CDC8ECB00796DA7 /* MBProgressHUD.m in Sources */,
+				EF47DFDF1D58170600279C7F /* Purchase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
