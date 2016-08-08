@@ -111,6 +111,7 @@
 		EF37D4491CDC7A3800796DA7 = {
 			isa = PBXGroup;
 			children = (
+				EF47DFE81D582E7300279C7F /* Photos */,
 				EF47DFD91D580DA500279C7F /* Order */,
 				EF47DFD81D580C0D00279C7F /* Purchase */,
 				048EED861D3E559F00BDF36B /* ssss.h */,
@@ -227,6 +228,13 @@
 				EF47DFDB1D580E3E00279C7F /* Order.m */,
 			);
 			name = Order;
+			sourceTree = "<group>";
+		};
+		EF47DFE81D582E7300279C7F /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Photos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
